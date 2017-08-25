@@ -1,0 +1,15 @@
+[Temps]
+Met = 50
+Eth = 70
+Tails = 80
+Fin = 97.5
+
+[Temps2]
+Met = 20
+Eth = 30
+Tails = 97.5
+
+[Pins]
+Hotplate = 17
+Solonoid1 = 5
+Solonoid2 = 6
