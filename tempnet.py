@@ -28,12 +28,12 @@ tempName2='28-0416589a15ff'
 tempSensorDir='/sys/bus/w1/devices/'
 tempS='{}/w1_slave'.format(findSensor(tempName,tempName2,tempSensorDir))
 
-API='58IQN3JJRCHEP7MP'
+API='ThingSpeakAPI'
 
-consumer_key='hT4p0SU4SRa1e6dJTbzH0g3S7'
-consumer_secret='ez1bjqsDe6zjCebny4yfM3IgSyjefq14LlaIDtCeiFSByuYDhT'
-access_token_key='767014581872889856-98h9sokFGq5YBH4hZysHHAOpm1rrPYr'
-access_token_secret='MwqLKNVrQrQBAU3kLbEBVNi4D6UEQVM6VAH1Q3yQaDXEW'
+consumer_key='TwitterCustomerKey'
+consumer_secret='TwitterCustomerSecret'
+access_token_key='TwiterTokenKey'
+access_token_secret='TwitterToken'
 
 t = TwitterAPI(consumer_key,consumer_secret,access_token_key,access_token_secret)
 temp = ''
